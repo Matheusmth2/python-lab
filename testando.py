@@ -1,10 +1,12 @@
-# Today's date
-print("05-22-2026")
-# How am I feeling right now?
-print("Very happy!😁")
-# What do I hope to achieve by learning to program?
-print("To be a great cybersecurity")
-# A message for my older, wiser, and more programmer self.
-print("It was worth it.")
-# My favorite emoji
-print("😊")
+# Variables
+name = "Matheus"
+user_id = 16180339887
+progress = 0.75
+xp = 60
+verified = True
+
+xp = 70
+xp = 80
+
+print(xp)    # Output: 80
+print(name)  # Output: Matheus
