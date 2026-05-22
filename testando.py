@@ -1,12 +1,6 @@
-# Variables
-name = "Matheus"
-user_id = 16180339887
-progress = 0.75
-xp = 60
-verified = True
+# Conversão de Fahrenheit para Celsius
 
-xp = 70
-xp = 80
+Fahrenheit = 61 # Temperatura em Fahrenheit
+Celsius = (Fahrenheit - 32) / 1.8
 
-print(xp)    # Output: 80
-print(name)  # Output: Matheus
+print("A temperatura em Celsius é: ", Celsius)
