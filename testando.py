@@ -1,11 +1,12 @@
-# Este código calcula as raízes de uma equação quadrática usando a fórmula de Bhaskara.
+# Conversor de moedas: pesos, soles e reais para dólar
 
-# O usuário é solicitado a inserir o valor do cateto a
-a = int(input("Digite o cateto a: "))
-# O usuário é solicitado a inserir o valor do cateto b
-b = int(input("Digite o cateto b: "))
+# O programa solicita ao usuário a quantidade de pesos, soles e reais que ele possui, e então converte esses valores para dólares usando as taxas de conversão atuais.
+pesos = float(input("Digite quantos pesos você tem: "))
+soles = float(input("Digite quantos soles você tem: "))
+reais = float(input("Digite quantos reais você tem: "))
 
-# O cálculo da hipotenusa, onde c é a hipotenusa, a é o cateto oposto e b é o cateto adjacente.
-c = (a ** 2 + b ** 2) ** (1/2)
+# As taxas de conversão hoje 22-05-2026 são: 1 peso = 0.00027 dólar, 1 sol = 0.29 dólar, e 1 real = 0.20 dólar.
+dolar = (pesos * 0.00027) + (soles * 0.29) + (reais * 0.20)
 
-print("A hipotenusa é:", c)
+# Por fim,o programa exibe o valor total em dólares.
+print("O seu dinheiro em dólar é:", dolar)
