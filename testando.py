@@ -1,16 +1,11 @@
 # Este código calcula as raízes de uma equação quadrática usando a fórmula de Bhaskara.
 
-# O usuário é solicitado a inserir o valor de a, que é o coeficiente do termo quadrático na equação.
-a = int(input("Digite o valor de a: "))
-# O usuário é solicitado a inserir o valor de b, que é o coeficiente do termo linear na equação.
-b = int(input("Digite o valor de b: "))
-# O usuário é solicitado a inserir o valor de c, que é o coeficiente do termo constante na equação.
-c = int(input("Digite o valor de c: "))
+# O usuário é solicitado a inserir o valor do cateto a
+a = int(input("Digite o cateto a: "))
+# O usuário é solicitado a inserir o valor do cateto b
+b = int(input("Digite o cateto b: "))
 
-# Calcula a primeira raiz usando a fórmula de Bhaskara e imprime o resultado.
-x1 = (-b + (b**2 - 4*a*c) ** (1/2)) / (2*a)
-print("O valor da primeira raiz é:", x1)
+# O cálculo da hipotenusa, onde c é a hipotenusa, a é o cateto oposto e b é o cateto adjacente.
+c = (a ** 2 + b ** 2) ** (1/2)
 
-# Calcula a segunda raiz usando a fórmula de Bhaskara e imprime o resultado.
-x2 = (-b - (b**2 - 4*a*c) ** (1/2)) / (2*a)
-print("O valor da segunda raiz é:", x2)
+print("A hipotenusa é:", c)
