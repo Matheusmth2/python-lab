@@ -1,6 +1,7 @@
-# Conversão de Fahrenheit para Celsius
+# Este código calcula o Índice de Massa Corporal (IMC) com base na massa e altura fornecidas.
 
-Fahrenheit = 61 # Temperatura em Fahrenheit
-Celsius = (Fahrenheit - 32) / 1.8
+mass = 70  # massa em kg
+height = 1.75 # altura em metros
+bmi = mass / (height ** 2) # fórmula para calcular o IMC
 
-print("A temperatura em Celsius é: ", Celsius)
+print("O Índice de Massa Corporal (IMC) é:", bmi)
