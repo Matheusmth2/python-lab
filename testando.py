@@ -1,12 +1,6 @@
-# Criando uma função com parametros
-# A variável failed_percentage é local à função calculate_fails() e não pode ser acessada fora dela. Para acessar o valor calculado, precisamos retornar a variável failed_percentage e armazená-la em uma variável global ou usá-la diretamente.
-def calculate_fails(total_attempts, failed_attempts):
-    failed_percentage = (failed_attempts / total_attempts) * 100
-    return failed_percentage
-
-# Criando a variavel global percentage
-# Guardando a porcentagem de falhas calculada pela função calculate_fails() na variável global `percentage`
-percentage = calculate_fails(4, 2) # Colocando argumentos para calcular a porcentagem de falhas (total_attempts=4, failed_attempts=2)
-if percentage >= 50:
-    print("Conta bloqueada")
-#A porcentagem não é retornarda na tela, mas a mensagem "Conta bloqueada" será exibida, pois a porcentagem de falhas é maior ou igual a 50%.
+# Este código demonstra o uso da função integrada sorted() em Python, que retorna uma nova lista ordenada do menor ao maior a partir dos itens em um iterável.
+# A função sorted() não modifica a lista original, mas sim cria uma nova lista ordenada. No exemplo, temos uma lista de tempos (time_list) e ao chamar sorted(time_list), obtemos uma nova lista ordenada, enquanto a lista original permanece inalterada.
+time_list = [12, 2, 32, 19, 57, 22, 14] # Lista de tempos
+print(sorted(time_list)) # Imprime a lista ordenada
+print(time_list) # Imprime a lista original, que permanece inalterada
+# OBS: Letras maiúsculas e minúsculas são ordenadas de forma diferente, com as maiúsculas sendo ordenadas antes das minúsculas. Por exemplo, 'A' vem antes de 'a' na ordem alfabética.
