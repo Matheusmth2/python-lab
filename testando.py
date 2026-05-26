@@ -1,2 +1,4 @@
-# Este é um script simples em Python que imprime o comprimento (length) da string "Hello World!".
-print(len("Hello World!"))
+# Concatenando duas strings
+print("Hello" + "World!")
+# Concatenando uma string com um número
+print("O número é: " + str(42))
