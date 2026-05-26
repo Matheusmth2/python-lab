@@ -1,18 +1,17 @@
-# Utilizando índices para acessar caracteres em uma string
-# Em Python, as strings são indexadas a partir do zero. Isso significa que o primeiro caractere de uma string tem o índice 0, o segundo caractere tem o índice 1, e assim por diante. Você pode usar colchetes [] para acessar caracteres específicos em uma string.
-# Por exemplo, se você tiver a string "Hello", os índices dos caracteres seriam:
-# H -> índice 0 e e -> índice 1 e l -> índice 2 e l -> índice 3 e o -> índice 4
-# Podemos acessar cada caractere usando seu índice correspondente. Aqui estão alguns exemplos:
-print("Hello"[0])
+# Utilizando o metodo de indices para acessar os elementos de uma lista
+print("Hello".index("o")) # Retorna o indice do primeiro elemento encontrado
+print("Hello".index("H")) # Python é case-sensitive, ou seja, diferencia maiúsculas de minúsculas
+print("Hello".index("l")) # Retorna o indice do primeiro elemento encontrado
 
-print("Hello"[1])
+# Utilizando o metodo de contagem para contar quantas vezes um elemento aparece em uma lista
+print("Hello".count("l")) # Retorna o número de vezes que o elemento aparece
 
-print("Hello"[2])
+# Utilizando o metodo de substituição para substituir um elemento por outro
+print("Hello".replace("l", "x")) # Retorna uma nova string com as substituições feitas
 
-print("Hello"[3])
+# Utilizando o metodo de divisão para dividir uma string em uma lista de substrings
+print("Hello World".split()) # Retorna uma lista de substrings, por padrão,
 
-print("Hello"[4])
-
-print("Hello"[0:3])
-
-print("Hello"[1:4])
+''' Strings imutáveis: As strings em Python são imutáveis, ou seja, não podem ser alteradas depois de criadas. Qualquer operação que pareça modificar uma string na verdade cria uma nova string.
+s = "Hello"
+s[0] = "h" # Isso causará um erro, pois strings são imutáveis '''
