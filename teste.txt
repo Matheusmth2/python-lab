@@ -1,0 +1,1 @@
+Testando a abertura de um arquivo .txt no python, transformando para string apenas para ler
